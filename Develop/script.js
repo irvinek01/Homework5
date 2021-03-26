@@ -2,7 +2,6 @@ $(".saveBtn").on("click", function(){
     var textInput = ($(this)).siblings(".description").val();
     var hourDiv = ($(this)).parent("div").attr("id");
     window.localStorage.setItem(hourDiv, textInput);
-    displayTodos();
 });
 function timeDisplayLive(){
     var todayAndTime = moment();
