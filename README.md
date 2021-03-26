@@ -1,89 +1,33 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Description
+A Simple Calendar Application that allows a user to save events for each hour of the day by clicking the right save icon. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Date and time works through the use of [Moment.js](https://momentjs.com/) library.
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+- This app uses time interval, local storage, iterations and DOM traversions. Moment.js learned from Week 3 (22 MAR - 24 MAR) 
+- To efficiently manage time while learning, build a Work Day Scheduler using HTML and CSS powered by jQuery!
+- A good practice of using iterations, conditional statements inside of looping statement, comparing time converted from Moment.js, using setInterval() for a live action of time, DOM traversing throught the use of jQuery selectors and setItem/getItem to/from local storage.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+### Screenshots
+The following image shows the web application's appearance and functionality:
 
-## User Story
+- The index.html
+![Work Day Scheduler index.](./Assets/index.png)
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- Live time is 12pm.
+![Live time is 12pm.](./Assets/12pm.png)
 
-## Acceptance Criteria
+#### URLs
+https://irvinek01.github.io/Homework5/
+https://github.com/irvinek01/Homework5
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+##### SPECIAL THANKS
+- https://stackoverflow.com/questions/17179957/how-to-select-a-textarea-by-its-type-and-parent-div-with-jquery/17180004
 
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+- Mr. John
+- Maam Janani
+- My Whole class
+- Would like to commend the following persons for helping directly(guiding me what to do next)/indirectly(asking questions to the instructors that I'm not aware of):
+  ~ Elvis Lee
+  ~ William Lucht
+  ~ Tyler Abegg
+  ~ Steven LeValley
